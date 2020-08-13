@@ -1,0 +1,15 @@
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+/Users/akhilesh/.rbenv/versions/2.7.0/bin/ruby -I /Users/akhilesh/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200810-28748-1dufsx4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20200810-28748-eillva

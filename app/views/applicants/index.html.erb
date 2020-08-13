@@ -1,0 +1,16 @@
+<h1>Applicants for <%= "#{@job.title} - #{@job.company}" %></h1>
+<table> <tr>
+            <th>Applicants details</th>
+          </tr>
+        <% for applicant in @applicants %>
+        <tr>
+       <td><%= applicant.firstname %></td>
+       <td><%= applicant.lastname %></td>
+       <td><%= applicant.emailid %></td>
+       <td><%= applicant.interest %></td>
+       <td><%= applicant.experience %></td>
+       <td><%= link_to 'Approve', approval_path(applicant.id,@job.id), class: "btn btn-info" %></td>
+       <td><%= link_to 'Back', dashboard_path, class: "btn btn-info" %></td>
+   </tr>
+   <% end %>
+</table>

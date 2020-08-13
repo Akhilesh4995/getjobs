@@ -1,0 +1,6 @@
+<h1 class="mt-5">Welcome to GetJobs</h1>
+<p class="lead">Candidates Get Your Dream Job and Organizations Hire Smart People by registering or signing in</p>
+<%= link_to "Sign-up", new_user_registration_path, class: "btn btn-Success" %> <%# redirects to the Sign-up page %>
+<%= link_to "Sign-in", new_user_session_path, class: "btn btn-secondary" %>
+
+<%= link_to "Sign in with Facebook", user_facebook_omniauth_authorize_path, class: "btn btn-info" %> 

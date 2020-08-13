@@ -1,0 +1,13 @@
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+/Users/akhilesh/.rbenv/versions/2.7.0/bin/ruby -I /Users/akhilesh/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200812-52694-1monrqu.rb extconf.rb
+creating Makefile
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR=" install

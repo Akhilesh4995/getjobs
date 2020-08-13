@@ -1,0 +1,16 @@
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+/Users/akhilesh/.rbenv/versions/2.7.0/bin/ruby -I /Users/akhilesh/.rbenv/versions/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200812-52694-11ar2ka.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+current directory: /Users/akhilesh/Downloads/Cloud_application_services/Client_application/getJobs/vendor/bundle/ruby/2.7.0/gems/unf_ext-0.0.7.7/ext/unf_ext
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 unf_ext.bundle ./.gem.20200812-52694-1mo1z2w

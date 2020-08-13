@@ -1,0 +1,40 @@
+<% if current_user.roll == "Candidate" %>
+<div class="container">
+	 <div class="row">
+	 	<div class="col-8">
+		<% @job.each do |jobs| %>
+		    <b>Job Title </b></br>
+		    <%= jobs.title %> </br>
+		    <b>Posted By</b> </br>
+		    <%= " #{jobs.user.username}" %> </br>
+		    <b>Company</b> </br>
+		    <%= " #{jobs.company}" %> </br>
+		    <b>Description</b> </br>
+		    <%= " #{jobs.description}" %> </br>
+		    <%= link_to "Apply", new_job_applicant_path(jobs.id), class: "btn btn-info" %></br>
+		    <div></br></div>
+		    <% end %>
+		</div>
+	</div>
+</div>
+<% else %>
+  
+<div class="container">
+	 <div class="row">
+	 	<div class="col-8">
+		<% @job.each do |jobs| %>
+		    <b>Job Title </b></br>
+		    <%= jobs.title %> </br>
+		    <b>Posted By</b> </br>
+		    <%= " #{jobs.user.username}" %> </br>
+		    <b>Company</b> </br>
+		    <%= " #{jobs.company}" %> </br>
+		    <b>Description</b> </br>
+		    <%= " #{jobs.description}" %> </br>
+		    <%= link_to "View Applicants", job_applicants_path(jobs.id), class: "btn btn-info" %></br>
+		    <div></br></div>
+		    <% end %>
+		</div>
+	</div>
+</div>
+<% end %>
